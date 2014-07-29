@@ -16,7 +16,7 @@
 	</style>
 </head>
 <body>
-	<img id="logo" src="logo.png" />
+	<img id="logo" src="/var/www/html2/GrivoogaLogo.png" />
 	<h1><?php echo "Hello world!"; ?></h1>
 	<?php if(!$link) { ?>
 		<h2>Can't connect to local MySQL Server!</h2>
